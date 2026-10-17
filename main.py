@@ -12,7 +12,7 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 DEFAULTS = {
-    "port": 8482,
+    "port": 8000,
     "workers": 1,
     "debug": False,
     "log_level": "info",
